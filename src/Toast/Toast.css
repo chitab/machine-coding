@@ -1,0 +1,101 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px;
+    max-width: 600px;
+    margin-inline: auto;
+  }
+  button, select, input{
+    height: 40px;
+  }
+  .duration-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .duration[type="range"]{
+    flex-grow: 1;
+  }
+  
+  .toast-container-left-top{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    left: 1rem;
+    top: 1rem;
+  }
+  .toast-container-left-bottom{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    left: 1rem;
+    bottom: 1rem;
+    background-color: white;
+  }
+  .toast-container-right-top{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    right: 1rem;
+    top: 1rem;
+    background-color: white;
+  }
+  .toast-container-right-bottom{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    right: 1rem;
+    bottom: 1rem;
+    background-color: white;
+  }
+  .normal{
+    padding: 10px;
+    margin: 5px;
+    color: black;
+    font-weight: bold;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+  }
+  .success{
+    padding: 10px;
+    margin: 5px;
+    color: black;
+    font-weight: bold;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: green;
+  }
+  .error{
+    padding: 10px;
+    margin: 5px;
+    color: black;
+    font-weight: bold;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: red;
+  }
+  .warning{
+    padding: 10px;
+    margin: 5px;
+    color: black;
+    font-weight: bold;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: orange;
+  }
+  .info{
+    padding: 10px;
+    margin: 5px;
+    color: black;
+    font-weight: bold;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: skyblue;
+  }
+  .close{
+   margin-left: 50px;
+   float: right;
+   cursor: pointer;
+  }

@@ -1,0 +1,25 @@
+
+.progressbar-containr {
+  display: flex;
+  justify-content: left;
+  margin: 20px 20px;
+  height: 20px;
+  background-color: grey;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: rgb(79, 79, 241);
+}
+.button-container{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+button{
+    width: 10%;
+}
