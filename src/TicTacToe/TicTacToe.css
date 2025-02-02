@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.rowC{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    padding: 0;
+    width: fit-content;
+}
+.boxC{
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    align-items: center;
+}

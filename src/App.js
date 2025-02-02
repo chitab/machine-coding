@@ -6,6 +6,7 @@ import Circle from "./Circles/Circle";
 import Header from "./Header/Header";
 import React, {useState} from "react";
 import Shape from "./Shape/Shape";
+import TicTacToe from "./TicTacToe/TicTacToe";
 function App() {
 
   const [selectedComponent, setSelectedComponent] = useState(null);
@@ -41,6 +42,9 @@ function App() {
           <div className="card" onClick={() => handleCardClick('Shape')}>
             <h3>Shape Box</h3>
           </div>
+          <div className="card" onClick={() => handleCardClick('TicTacToe')}>
+            <h3>TicTacToe Game</h3>
+          </div>
         </div>
       ) : (
         // Render the selected component with the "Back" button
@@ -50,6 +54,7 @@ function App() {
           {selectedComponent === 'ProgressBar' && <ProgressBar />}
           {selectedComponent === 'BasicCalculator' && <BasicCalculator />}
           {selectedComponent === 'Shape' && <Shape />}
+          {selectedComponent === 'TicTacToe' && <TicTacToe />}
         </div>
       )}
     </>
